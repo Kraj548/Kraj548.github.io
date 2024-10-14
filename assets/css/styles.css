@@ -633,6 +633,33 @@ article h5{
   letter-spacing: 1.5px;
 
 }
+@media (max-width: 768px) {
+  .about {
+    padding: 20px;
+  }
+
+  article h1 {
+    font-size: 30px;
+  }
+
+  article h1::after {
+    width: 150px;
+  }
+
+  article img {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+  }
+
+  blockquote {
+    font-size: 16px;
+  }
+
+  article h5 {
+    font-size: 20px;
+  }
+}
 
 
 
